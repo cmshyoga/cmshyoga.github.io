@@ -1,7 +1,8 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import avatar from '../assets/images/profile_picture.jpg'
+
 
 const Header = () => (
   <header id="header">
@@ -10,12 +11,21 @@ const Header = () => (
         <img src={avatar} alt="" />
       </a>
       <h1>
-        <strong>I am Strata</strong>, a super simple
+        <strong>嗨，我是哈密瓜熊。</strong>
         <br />
-        responsive site template freebie
-        <br />
-        crafted by <a href="http://html5up.net">HTML5 UP</a>.
       </h1>
+      
+      <h2>
+        <br />
+        我是旅遊夥伴 Yoga在北海道旅遊時，<br />
+        受命運感召而買下的帥氣熊玩偶，<br />
+        也是來自北海道夕張市，<br />
+        最殘暴也最勤奮不懈的吉祥物。
+        <br />
+        <br />
+        這裡是我的個人網頁，<br />
+        記錄我的每一份回憶。
+      </h2>
     </div>
     <Footer />
   </header>

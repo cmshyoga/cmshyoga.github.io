@@ -103,7 +103,7 @@
 	}
 
 	h1 {
-		font-size: 2em;
+		font-size: 3em;
 		line-height: 1.5em;
 	}
 
@@ -930,13 +930,27 @@
 			color: _palette(accent2, fg-bold);
 		}
 
-		h2, h3, h4, h5, h6 {
+		h3, h4, h5, h6 {
 			color: _palette(accent2, fg-bold);
 		}
 
 		h1 {
 			color: _palette(accent2, fg);
 			font-size: 1.35em;
+			line-height: 1.75em;
+			margin: 0;
+		}
+
+		h3 {
+			color: _palette(accent2, fg);
+			font-size: 1.1em;
+			line-height: 1.75em;
+			margin: 0;
+		}
+
+		h2 {
+			color: _palette(accent2, fg-bold);
+			font-size: 0.95em;
 			line-height: 1.75em;
 			margin: 0;
 		}
@@ -954,12 +968,12 @@
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
 			a {
-				color: _palette(accent2, fg-light);
+				color: _palette(accent2, fg);
 			}
 		}
 
 		.copyright {
-			color: _palette(accent2, fg-light);
+			color: _palette(accent2, fg);
 			font-size: 0.8em;
 			list-style: none;
 			margin: (_size(element-margin) * 0.5) 0 0 0;
@@ -1382,6 +1396,10 @@
 
 				h1 {
 					font-size: 1.35em;
+				}
+				
+				h2 {
+					font-size: 1.05em;
 				}
 			}
 

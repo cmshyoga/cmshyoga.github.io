@@ -18,7 +18,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
       {images && (<div className="row">
         {images.map((obj, i) => {
         return (<GalleryItem
-          id={obj.id}
+          id={obj.id} 
           source={obj.source}
           thumbnail={obj.thumbnail}
           caption={obj.caption}
